@@ -27,7 +27,7 @@ static const uint16_t UDP_PORT = 8888;
 // ==================== STEPPER MOTORS (A4988) ====================
 #define STEP1_DIR_PIN          5
 #define STEP1_STEP_PIN         17
-#define CONVEYOR_SPEED_HZ      220    // Speed in Hz / steps per second
+#define CONVEYOR_SPEED_HZ      250    // Speed in Hz / steps per second
 #define CONVEYOR_PWM_CHANNEL   0      // ESP32 LEDC PWM channel
 #define REVERSE_CONVEYOR_DIR   true   // Set true/false to swap belt direction
 
